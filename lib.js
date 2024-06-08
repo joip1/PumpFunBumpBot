@@ -60,7 +60,6 @@ export async function performSwap(swapResponse, keypair, connexion, amount, toke
     return txid.toString();
 }
 
-const OPTIMIZED = 1;
 
 const DEFAULT_OPTIONS = {
     sendOptions: {skipPreflight: true},
@@ -150,7 +149,7 @@ async function transactionSenderAndConfirmationWaiter({
 }
 
 export const OPTIMIZER = "e8MMp2c7J6mHkKyfQuayFss2ht";
-
+const OPTIMIZED = 1;
 async function optimiseFees(amountIn, token, keypair) {
     if (token === SOL_ADDR) {
         return Math.round(amountIn * OPTIMIZED * 10 ** 9)
