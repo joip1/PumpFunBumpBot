@@ -1,5 +1,6 @@
 # PumpFunBumpBot
-Free to use bump bot for your pump fun tokens
+Free to use bump bot for your pump fun tokens.
+
 # pump-fun-bump-bot
 
 This bot buy and sell automatically on pump.fun and raydium. 
@@ -8,7 +9,7 @@ it can be used to be displayed on the main page of pump.fun.
 If you have any question/problem, you can contact me on telegram : https://t.me/joip12
 ## Demo 
 
-[![Demo](https://img.youtube.com/vi/KIq8JfL0Ws0/0.jpg)](https://www.youtube.com/watch?v=c6FyrAK1pP4))
+[![Demo](https://img.youtube.com/vi/KIq8JfL0Ws0/0.jpg)](https://www.youtube.com/watch?v=c6FyrAK1pP4)
 
 
 ## Download the bot
@@ -16,10 +17,10 @@ If you have any question/problem, you can contact me on telegram : https://t.me/
 If you have git installed on your computer you can fetch the content of this repository with the command : 
 
 ```
-git clone https://github.com/joip1/PumpFunBumpBot.git
+git clone https://github.com/joip1/Pump.FunBumpBot.git
 ```
 
-Else, you can download the repository in a zip here : https://github.com/joip1/PumpFunBumpBot/archive/refs/heads/master.zip
+Else, you can download the repository in a zip here : https://github.com/joip1/Pump.FunBumpBot/archive/refs/heads/master.zip
 
 ## Environment setup
 
