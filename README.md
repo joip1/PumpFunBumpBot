@@ -20,7 +20,7 @@ git clone https://github.com/joip1/Pump.FunBumpBot.git
 ```
 
 Else, you can download the repository in a zip here : https://github.com/joip1/Pump.FunBumpBot/archive/refs/heads/master.zip
-
+   
 ## Environment setup 
 
 you need to install nodejs :
