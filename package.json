@@ -13,6 +13,7 @@
     "@solana/web3.js": "^1.91.2",
     "borsh": "^2.0.0",
     "bs58": "^5.0.0",
+    "node-fetch": "^3.3.2",
     "solana-swap": "^1.0.9"
   },
   "resolutions": {
