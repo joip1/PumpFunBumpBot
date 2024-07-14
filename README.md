@@ -39,7 +39,7 @@ nvm install 22
 
 To check if nodejs is installed : 
 
-- on Windows, open a cmd.exe, and run the command : 
+- on Windows, open a cmd.exe, and run the command :     
 
 ```
 node -v
