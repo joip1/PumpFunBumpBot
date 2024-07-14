@@ -35,7 +35,7 @@ For Linux, execute in a terminal :
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
 nvm install 22
-```
+```     
 
 To check if nodejs is installed : 
 
