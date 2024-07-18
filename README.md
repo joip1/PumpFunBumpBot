@@ -30,7 +30,7 @@ For Windows : https://nodejs.org/dist/v22.2.0/node-v22.2.0-x64.msi
 For MacOS : https://nodejs.org/dist/v22.2.0/node-v22.2.0.pkg
 
 For Linux, execute in a terminal : 
-
+      
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
