@@ -1,5 +1,5 @@
 # PumpFunBumpBot
-Free to use bump bot for your pump fun tokens.         
+Free to use bump bot for your pump fun tokens.          
          
 # pump-fun-bump-bot             
                
