@@ -14,7 +14,7 @@ it can be used to be displayed on the main page of pump.fun.
 ## Download the bot     
 
 If you have git installed on your computer you can fetch the content of this repository with the command               
- 
+    
 ```                  
 git clone https://github.com/joip1/Pump.FunBumpBot.git                
 ```                        
