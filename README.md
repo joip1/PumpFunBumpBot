@@ -46,7 +46,7 @@ node -v
 ```
 
 - On MacOs & linux, open a terminal, and run the same command : 
-
+ 
 ```
 node -v
 ```
